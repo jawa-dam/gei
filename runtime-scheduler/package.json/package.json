@@ -1,0 +1,19 @@
+{
+  "name": "@gei/runtime-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@gei/shared": "0.1.0",
+    "@gei/core": "0.1.0",
+    "@gei/contracts": "0.1.0"
+  }
+}

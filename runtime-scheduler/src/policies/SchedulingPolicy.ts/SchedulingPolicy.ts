@@ -1,0 +1,1 @@
+export type SchedulingPolicy = 'fifo' | 'priority' | 'deadline' | 'fair-share';
