@@ -1,0 +1,1 @@
+export type PrimitiveKind = 'string' | 'number' | 'boolean' | 'bigint' | 'symbol' | 'null' | 'undefined';

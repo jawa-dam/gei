@@ -1,0 +1,1 @@
+export type Severity = 'trace' | 'debug' | 'info' | 'warn' | 'error' | 'critical';

@@ -1,0 +1,1 @@
+export type CollectionKind = 'array' | 'set' | 'map' | 'dictionary';
