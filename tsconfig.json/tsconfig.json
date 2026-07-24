@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/core" },
+    { "path": "./packages/contracts" },
+    { "path": "./packages/dependency-graph" },
+    { "path": "./packages/runtime-scheduler" },
+    { "path": "./packages/platform-foundation" },
+    { "path": "./packages/platform-kernel" },
+    { "path": "./packages/extension-framework" },
+    { "path": "./packages/contributions" },
+    { "path": "./packages/testing" },
+    { "path": "./packages/gei-language" },
+    { "path": "./packages/gei-ontology" },
+    { "path": "./packages/gei-inquiry" },
+    { "path": "./packages/gei-knowledge" },
+    { "path": "./packages/gei-reasoning" },
+    { "path": "./packages/gei-learning" },
+    { "path": "./packages/gei-ai" },
+    { "path": "./packages/academy" },
+    { "path": "./packages/studio" },
+    { "path": "./packages/engine" },
+    { "path": "./apps/academy-app" },
+    { "path": "./apps/studio-app" }
+  ]
+}
