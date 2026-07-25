@@ -1,94 +1,162 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GEI</title>
+    <title>GEI — Genesis Engineered Interpretations</title>
     <meta
       name="description"
-      content="Genesis Engineered Interpretations — a learning and discovery platform for inquiry, knowledge, and creation."
+      content="GEI is a learning and discovery platform for inquiry, knowledge, guided understanding, and creative creation."
     />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.5;
-        background: #f8fafc;
-        color: #10212b;
-      }
-      header,
-      main,
-      footer {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 24px;
-      }
-      header {
-        padding-top: 48px;
-      }
-      .hero {
-        background: white;
-        border-radius: 16px;
-        padding: 24px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-      }
-      .buttons a {
-        display: inline-block;
-        margin: 8px 12px 8px 0;
-        padding: 12px 16px;
-        border-radius: 10px;
-        text-decoration: none;
-        background: #004d61;
-        color: white;
-      }
-      ul {
-        padding-left: 20px;
-      }
-      footer {
-        padding-bottom: 48px;
-        font-size: 0.95rem;
-        color: #4b5563;
-      }
-    </style>
+    <meta name="theme-color" content="#004d61" />
+    <link rel="stylesheet" href="/assets/site.css" />
   </head>
   <body>
-    <header>
-      <div class="hero">
-        <h1>GEI</h1>
-        <p>Genesis Engineered Interpretations.</p>
-        <p>
-          A learning and discovery platform for inquiry, knowledge, and creation.
-        </p>
-        <div class="buttons">
-          <a href="/academy">Start GEI Academy</a>
-          <a href="/studio">Open GEI Studio</a>
-          <a href="/playground">Try the Playground</a>
+    <header class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <div class="mark" aria-hidden="true"></div>
+          <div>
+            <h1>GEI</h1>
+            <p>Genesis Engineered Interpretations</p>
+          </div>
         </div>
+        <nav aria-label="Primary">
+          <a href="/index.html">Home</a>
+          <a href="/academy.html">Academy</a>
+          <a href="/studio.html">Studio</a>
+          <a href="/playground.html">Playground</a>
+        </nav>
       </div>
     </header>
 
-    <main>
-      <section>
-        <h2>Explore</h2>
-        <ul>
-          <li><a href="/academy">Academy</a></li>
-          <li><a href="/studio">Studio</a></li>
-          <li><a href="/playground">Playground</a></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>About GEI</h2>
-        <p>
-          GEI is being built as a platform for structured inquiry, shared understanding,
-          and guided discovery.
+```
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <h2>Learn. Discover. Build.</h2>
+        <p class="lead">
+          GEI is a learning and discovery platform for inquiry, knowledge, guided understanding,
+          and creative creation. It connects the public website, Academy, Studio, Playground,
+          and Engine into one unified ecosystem.
         </p>
-      </section>
-    </main>
+        <div class="button-row">
+          <a class="button primary" href="/academy.html">Start GEI Academy</a>
+          <a class="button secondary" href="/studio.html">Open GEI Studio</a>
+          <a class="button secondary" href="/playground.html">Try the Playground</a>
+        </div>
+      </div>
 
-    <footer>
-      <p>&copy; GEI</p>
-    </footer>
+      <div class="panel">
+        <h3>What GEI helps you do</h3>
+        <p>
+          GEI gives structure to observation, questions, evidence, reasoning, knowledge, and
+          creation so ideas can move from discovery into real learning experiences.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>Observe</strong>
+            <span>Notice patterns and details</span>
+          </div>
+          <div class="stat">
+            <strong>Inquire</strong>
+            <span>Ask focused questions</span>
+          </div>
+          <div class="stat">
+            <strong>Create</strong>
+            <span>Build lessons and simulations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="academy">
+    <h3>GEI Academy</h3>
+    <p>
+      The Academy is the learner-facing experience. It guides users through inquiry, lessons,
+      simulations, and progressive understanding.
+    </p>
+    <div class="button-row">
+      <a class="button primary" href="/academy.html">Enter Academy</a>
+    </div>
+  </section>
+
+  <section class="section" id="studio">
+    <h3>GEI Studio</h3>
+    <p>
+      The Studio is the creator workspace. It is where GEI content, simulations, and learning
+      experiences are authored and organized.
+    </p>
+    <div class="button-row">
+      <a class="button primary" href="/studio.html">Open Studio</a>
+    </div>
+  </section>
+
+  <section class="section" id="playground">
+    <h3>GEI Playground</h3>
+    <p>
+      The Playground is a lightweight space for experiments, prototypes, and quick discovery
+      tests before ideas move into the Academy or Studio.
+    </p>
+    <div class="button-row">
+      <a class="button primary" href="/playground.html">Try Playground</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h3>Why GEI exists</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Method</h4>
+        <p>Observation, inquiry, knowledge, reasoning, learning, and creation.</p>
+      </div>
+      <div class="card">
+        <h4>Platform</h4>
+        <p>Engine, Academy, Studio, Playground, and a growing ecosystem of packages.</p>
+      </div>
+      <div class="card">
+        <h4>Purpose</h4>
+        <p>Help people discover, understand, and build with structure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <h3>Frequently asked questions</h3>
+
+    <details>
+      <summary>What is GEI?</summary>
+      <p>
+        GEI stands for Genesis Engineered Interpretations, a platform and method for structured
+        discovery and learning.
+      </p>
+    </details>
+
+    <details>
+      <summary>What should I start with?</summary>
+      <p>
+        Start with GEI Academy if you want to learn the method, GEI Studio if you want to
+        build with it, or GEI Playground if you want to experiment quickly.
+      </p>
+    </details>
+
+    <details>
+      <summary>How does GEI support learning?</summary>
+      <p>
+        GEI organizes learning around observation, inquiry, knowledge, reasoning, and guided
+        creation so users can move from curiosity into understanding.
+      </p>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>&copy; GEI. Built for discovery, learning, and creation.</p>
+</footer>
+```
+
   </body>
 </html>
